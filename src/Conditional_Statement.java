@@ -2,10 +2,12 @@ import javax.swing.*;
 
 public class Conditional_Statement {
     public static void main(String[] args) {
-        char attendance= 'M';
+        char attendance= 'P';
+        int total=40;
 
         if (attendance == 'P')
         {
+            if(total >=50)
             System.out.println("Attended classes");
         }
         else if (attendance =='O')
